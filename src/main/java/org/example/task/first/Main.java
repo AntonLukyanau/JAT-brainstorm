@@ -25,5 +25,6 @@ public class Main {
         AbstractEmployee stevenSeagal = new HourlyEmployee("Steven Seagal", 2);
         System.out.println(accountant.calculatePay(stevenSeagal));
         System.out.println(accountant.calculateBonus(stevenSeagal));
+
     }
 }
