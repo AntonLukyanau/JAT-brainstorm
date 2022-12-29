@@ -21,5 +21,9 @@ public class Main {
         AbstractEmployee jackieChan = new CommissionedEmployee("Jackie Chan");
         System.out.println(accountant.calculatePay(jackieChan));
         System.out.println(accountant.calculateBonus(jackieChan));
+
+        AbstractEmployee stevenSeagal = new HourlyEmployee("Steven Seagal", 2);
+        System.out.println(accountant.calculatePay(stevenSeagal));
+        System.out.println(accountant.calculateBonus(stevenSeagal));
     }
 }
